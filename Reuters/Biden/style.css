@@ -1,0 +1,53 @@
+body {
+    margin : 0px;
+    font-family: serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+nav.nav {
+    height : auto;
+    padding: 4px 1px;
+}
+
+.background-dark {
+    background-color: whitesmoke;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+nav.nav .logo-container{
+    display: block;
+    margin: 0 5px;
+}
+
+.navbar-brand {
+    margin: 0px; 
+    padding: 0.275rem;
+    padding-bottom: 0px;
+}
+
+.navbar-brand img{
+    width: 8em;
+    height : 30px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.lede-img {
+    width : 100%;
+    max-width : 400px;
+}
